@@ -145,6 +145,7 @@ with open("entropia_inteira","w") as f:
 
         outofrange = False
         for i in range(q_y):
+            outofrange = False
             for j in range(q_x):
                 if(compare_img.item(i*3, j*3) ==  0):
                     outofrange = True
