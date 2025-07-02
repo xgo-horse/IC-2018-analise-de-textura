@@ -89,7 +89,7 @@ with open("entropia32x32","w") as f:
                 bList[valueB] = bList[valueB] + 1
                 gList[valueG] = gList[valueG] + 1
                 rList[valueR] = rList[valueR] + 1
-                grayList[valueGray] = rList[valueGray] + 1
+                grayList[valueGray] = grayList[valueGray] + 1
                 bgList[(valueB+valueG) // 2] = bgList[(valueB+valueG) // 2] + 1
                 grList[(valueR+valueG) // 2] = grList[(valueR+valueG) // 2] + 1
                 brList[(valueB+valueR) // 2] = brList[(valueB+valueR) // 2] + 1
